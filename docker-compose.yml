@@ -6,3 +6,4 @@ services:
       - "8080:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=staging
+    restart: always  # Para garantir que o serviço reinicie em caso de falha
